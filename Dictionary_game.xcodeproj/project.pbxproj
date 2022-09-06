@@ -8,17 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		2E3BAEF528C0608C0003736E /* Dictionary_gameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E3BAEF428C0608C0003736E /* Dictionary_gameApp.swift */; };
-		2E3BAEF728C0608C0003736E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E3BAEF628C0608C0003736E /* ContentView.swift */; };
+		2E3BAEF728C0608C0003736E /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E3BAEF628C0608C0003736E /* ListView.swift */; };
 		2E3BAEF928C0608D0003736E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E3BAEF828C0608D0003736E /* Assets.xcassets */; };
 		2E3BAEFC28C0608D0003736E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E3BAEFB28C0608D0003736E /* Preview Assets.xcassets */; };
+		2E3BAF0728C062AF0003736E /* Language.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E3BAF0628C062AF0003736E /* Language.swift */; };
+		2E89E26E28C704C7002A1A08 /* Palabras.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E89E26D28C704C7002A1A08 /* Palabras.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2E3BAEF128C0608C0003736E /* Dictionary_game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dictionary_game.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E3BAEF428C0608C0003736E /* Dictionary_gameApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dictionary_gameApp.swift; sourceTree = "<group>"; };
-		2E3BAEF628C0608C0003736E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2E3BAEF628C0608C0003736E /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		2E3BAEF828C0608D0003736E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2E3BAEFB28C0608D0003736E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2E3BAF0628C062AF0003736E /* Language.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Language.swift; sourceTree = "<group>"; };
+		2E89E26D28C704C7002A1A08 /* Palabras.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Palabras.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +55,9 @@
 		2E3BAEF328C0608C0003736E /* Dictionary_game */ = {
 			isa = PBXGroup;
 			children = (
+				2E3BAF0328C061780003736E /* Models */,
+				2E3BAF0228C061330003736E /* views */,
 				2E3BAEF428C0608C0003736E /* Dictionary_gameApp.swift */,
-				2E3BAEF628C0608C0003736E /* ContentView.swift */,
 				2E3BAEF828C0608D0003736E /* Assets.xcassets */,
 				2E3BAEFA28C0608D0003736E /* Preview Content */,
 			);
@@ -65,6 +70,23 @@
 				2E3BAEFB28C0608D0003736E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2E3BAF0228C061330003736E /* views */ = {
+			isa = PBXGroup;
+			children = (
+				2E3BAEF628C0608C0003736E /* ListView.swift */,
+				2E89E26D28C704C7002A1A08 /* Palabras.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		2E3BAF0328C061780003736E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2E3BAF0628C062AF0003736E /* Language.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +159,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2E3BAEF728C0608C0003736E /* ContentView.swift in Sources */,
+				2E3BAEF728C0608C0003736E /* ListView.swift in Sources */,
+				2E3BAF0728C062AF0003736E /* Language.swift in Sources */,
 				2E3BAEF528C0608C0003736E /* Dictionary_gameApp.swift in Sources */,
+				2E89E26E28C704C7002A1A08 /* Palabras.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

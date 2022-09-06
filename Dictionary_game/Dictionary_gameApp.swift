@@ -11,7 +11,7 @@ import SwiftUI
 struct Dictionary_gameApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ListView(l:Language(language: ""))
         }
     }
 }
